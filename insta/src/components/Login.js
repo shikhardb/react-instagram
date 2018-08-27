@@ -13,6 +13,10 @@ export default class Login extends Component {
     };
 
     render() {
+        if (localStorage.getItem("access_token")) {
+            this.props.history.push("/home");
+        }
+
         return (
             <div>
                 <h1 className="App-title">
