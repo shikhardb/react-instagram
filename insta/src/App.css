@@ -19,3 +19,41 @@
 .App-intro {
     font-size: large;
 }
+
+.btn-outline-secondary {
+    background-color: #e91e63de;
+    border-color: #e41212;
+    color: #ffffff;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:active,
+.btn-outline-secondary:focus,
+.btn-outline-secondary:not(:disabled):not(.disabled):active {
+    background-color: #e91e43d9;
+    border-color: #e41212;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #495057;
+    outline: 0;
+    box-shadow: 0 0 0 0.02rem rgba(97, 91, 92, 0.63);
+}

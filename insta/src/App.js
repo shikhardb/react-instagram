@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import "./App.css";
-import Search from "./components/Search";
 import Login from "./components/Login";
 import Header from "./components/Header";
+import Home from "./components/Home";
 
 class App extends Component {
     render() {
@@ -13,7 +13,7 @@ class App extends Component {
                 <div className="App">
                     <Header />
                     <Route exact path="/" component={Login} />
-                    <Route exact path="/home" component={Search} />
+                    <Route exact path="/home" component={Home} />
                 </div>
             </Router>
         );
