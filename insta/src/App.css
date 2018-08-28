@@ -57,3 +57,16 @@ label:focus,
     outline: 0;
     box-shadow: 0 0 0 0.02rem rgba(97, 91, 92, 0.63);
 }
+
+.figure-caption {
+    font-weight: bold;
+}
+
+.logout-button {
+    margin: -65px 20px 20px 20px;
+}
+
+i {
+    margin-left: 20px;
+    color: red;
+}
